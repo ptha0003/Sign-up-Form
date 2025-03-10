@@ -92,6 +92,7 @@ form {
 .userInput {
     margin: 0px -2.5rem 0 -2.5rem;
     padding: 3rem;
+
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
@@ -105,7 +106,7 @@ label {
 
 .rows {
     display: inline-block;
-    margin-right: 200px;
+    margin-right: 1rem;
     margin-bottom: 20px;
 }
 
