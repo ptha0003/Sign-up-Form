@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="side-container">
+        <div class="logo-heading">
+            <img src="./images/logo.png" />
+            <h1>ODIN</h1>
+        </div>
+
+        <div class="footer">
+            <p>Photo by <a href="https://unsplash.com/@milkbox">Ryan Kwok</a> on <a
+                    href="https://unsplash.com/photos/green-mountain-with-clouds-xfYMLWgI8ww">Unsplash</a></p>
+        </div>
+    </div>
+
+    <div class="form-container">
+        <div class="top-text">
+            <p>This is not a real online service! You need something like this in your life to help you realize your
+                deepest dreams. Sign up <span class="italic">now</span> to get started.</p>
+            <p> You <span class="italic">know</span> you want to.</p>
+        </div>
+
+        <form>
+
+            <p>Let's do this!</p>
+            <div class="userInput">
+                <div class="rows">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname">
+                </div>
+                <div class="rows">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname">
+                </div>
+
+                <br />
+                <div class="rows">
+                    <label for="Email">Email</label>
+                    <input type="email" id="Email">
+                </div>
+                <div class="rows">
+                    <label for="Phnum">Phone Number</label>
+                    <input type="tel" id="Phnum">
+                </div>
+
+                <br />
+                <div class="rows">
+                    <label for="PW">Password</label>
+                    <input type="password" id="PW" pattern=".{8,}" required>
+                </div>
+                <div class="rows">
+                    <label for="PWC">Confirm Password</label>
+                    <input type="password" id="PWC" pattern=".{8,}" required>
+                </div>
+
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
+
+        <div class="bot-text">Already have an account? <a href="#">Log in</a></div>
+
+    </div>
+
+</body>
+
+</html>
